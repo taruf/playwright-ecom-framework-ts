@@ -10,7 +10,9 @@ export default defineConfig({
   use: {
     baseURL: 'https://www.saucedemo.com',
     trace: 'on-first-retry',
+    testIdAttribute: 'data-test',
   },
+
 
   projects: [
     {
